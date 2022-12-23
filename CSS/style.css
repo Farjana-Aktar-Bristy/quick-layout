@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 0px 7px 18px #3b506c85;
+    position: fixed;
+    left: 0;
+    right:0;
+    background-color: white;
+
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    padding: 10px;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: #3b506c;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #3b506c;
+    color: white;
+}
+
+/* banner-section */
+.banner-section {
+    padding: 40px;
+    text-align: center;
+    font-size: larger;
+    color: #3b506c;
+}
+
+.banner-section p {
+    margin: -10px 0px 0px 0px;
+
+}
+
+/* Main Image */
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* feature section */
+
+.side-view {
+    color: #3f3d56;
+    font-weight: bold;
+    display: flex;
+}
+
+.side-view>.col1 {
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+}
+
+.side-view>.col2 {
+    width: 50%;
+    padding: 5px 0 0 10px;
+    text-align: left;
+}
+
+/* blog-section */
+.rapper {
+    margin: 20px;
+    padding: 20px;
+}
+
+.blog-section {
+    margin-bottom: 200px;
+}
+
+.column {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.blog {
+    padding: 20px;
+    border-radius: 10px;
+    color: #3b506c
+}
+
+.blog img {
+    max-width: 100%;
+    height: 170px;
+}
+
+.blog h3 {
+    font-size: 20px;
+}
+
+.red {
+    background-color: rgba(236, 75, 75, 0.26);
+}
+
+.green {
+    background-color: rgba(30, 112, 30, 0.233);
+}
+
+.blue {
+    background-color: rgba(65, 65, 236, 0.295);
+}
+
+
+/* footer-section */
+.footer {
+    margin-top: 50px;
+}
+.footer-text {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
